@@ -1,0 +1,185 @@
+            /*Configurações Gerais*/
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-size: 1em;
+            font-family:'Trebuchet MS', Helvetica, sans-serif;
+            background: #fff;
+        }
+        h1{
+            color: #4e4e4e;
+            font: 2.5em;
+        }
+        h3{
+            color: #565656;
+            background: #ccc;
+            padding: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        a{
+            text-decoration:none;
+        }
+        a:link, a:visited{
+            color:#fff;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        /*Fim das Configurações Gerais*/
+
+        /*Layout de todas as páginas*/
+            #area-principal{
+                margin: 0px auto;
+            }
+
+            #titulo{
+                font-size: 3em;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                width: 600px;
+                position: relative;
+                top: 100px;
+            }
+
+                /*Cabeçalho*/
+            #area-cabecalho{
+                background: #1472ff;
+                padding: 15px;
+                text-align: center; 
+            }
+            
+            #area-logo, #area-menu {
+                padding: 10px;
+                font-size: 1.5em;
+            }
+            #area-cabecalho a:link, #area-cabecalho a:visited{
+                color:#fff;
+                padding: 8px 12px;
+            }
+            
+            #area-cabecalho a:hover{
+                color:#1472ff;
+                background:#fff;
+                text-decoration: none;
+            }
+            .titulo{
+                font-size: 60px;
+                text-align: center;
+                color:#1472ff;
+                margin-bottom: 10px;
+            }      
+            .branco{
+                color:#ffffff;
+            }
+                /*Fim do Cabeçalho*/
+
+                /*Rodapé*/
+        #rodape{
+            clear: both;
+            background: #1472ff;
+            text-align: center;
+            padding: 15px;
+            color:#fff;
+        }
+
+        #direitos{
+            float:left;
+            margin-right: 80px;
+            margin-left: 400px;
+        }
+
+        #instagram{
+            float:left;
+            line-height: 19px;
+            height:19px;
+        }
+            /*Fim do Rodapé*/
+
+        /*Fim do Layout de todas as páginas*/
+        
+        /*Página Principal*/
+        #imagem-principal{
+            background: url(Imagens/instalação.jpg) no-repeat;
+            background-size: cover;
+            height: 850px;
+            width: 1300px;
+        }
+
+        #beneficios{
+            font-size: 60px;
+            text-align: center;
+            color:#1472ff;
+            margin: 25px;
+        }
+
+        #mapa{
+            font-size: 60px;
+            text-align: center;
+            color:#fff;
+            margin: 25px;
+            background: #1472ff;
+            padding: 15px;
+        }
+        .lista-beneficios{
+            list-style: disc;
+            font-size: 40px;
+            margin: 100px;
+            text-align: justify;
+            float:left;
+            padding: 60px 60px;
+            border: 3px dotted #1472ff;
+        }
+        .imagem-beneficios{
+            float:right;
+            background-image: url(Imagens/ar-comum.jpeg);
+            background-size: cover;
+            height: 600px;
+            width: 600px;
+        }
+        /*Fim da Página Principal*/
+
+        /*Página de contatos*/
+        #contatos{
+            font-size: 60px;
+            text-align: center;
+            color:#1472ff;
+            margin: 10px 25px;;
+        }
+        .lista-contatos{
+            list-style: disc;
+            font-size: 25px;
+            margin: 30px 60px;
+            text-align: justify;
+            padding: 30px 60px;
+            list-style: none;
+        }
+        .texto-contatos{
+            font-size: 25px;
+        }
+        #contatos a{
+            color: #1472ff;
+        }
+        
+        #contatos a:hover{
+            text-decoration: none;
+            color:#fff;
+            background: #1472ff;
+            padding:5px;
+        }
+        /*Fim da Página de contatos*/
+
+        /*Página de Quem Somos*/
+        #texto-quem_somos{
+            margin: 20px;
+            margin-bottom: 158px;
+        }
+        .paragrafo-quem_somos{
+            padding: 20px;
+            font-size: 25px;
+            color:#1472ff;
+            text-align: justify;
+        }
+        /*Fim da Página de Quem Somos*/
